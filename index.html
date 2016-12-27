@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Regex Fiddle</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="flex-container">
+		<h1>Regex Fiddle</h1>
+		<div class="flex-item">
+			<input type="text" placeholder="regex">			
+			<input type="checkbox" value="i" id="flag-case-insensitive">i - Case Insensitive</input>
+			<input type="checkbox" value="g" id="flag-global" checked>g - Global</input>
+			<input type="checkbox" value="m" id="flag-multiline">m - Multiline</input>
+		</div>
+		<div contenteditable="true" id="text-input" class="flex-item"></div>
+		<div id="text-output" class="flex-item"></div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
